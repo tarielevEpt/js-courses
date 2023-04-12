@@ -561,4 +561,149 @@
 
 // Поиск ошибок в коде
 
+// let num1 = 1;
+// let num2 = 2;
+// console.log(num1 + num2); 
 
+
+// let a = 1;
+// let b = 2;
+// console.log(a + b);
+
+// let num = '123';
+// let sum = num[0] + num[1] + num[2];
+// console.log(sum);
+
+// let num = '123';
+// console.log(num[0]);
+
+// let a = 0;
+// console.log(++a);
+
+// let num = '123';
+// console.log(num.length);
+
+// let a = 24 / 60 / 60;
+// console.log(a)
+
+
+
+// Массивы в JavaScript
+
+// let a = [1,2];
+// alert(a);
+// console.log(a);
+
+// let a = ['1','2'];
+// alert(a);
+// console.log(a);
+
+
+// Получение элементов массивов в JavaScript
+
+
+// let arr = [1, 2, 3];
+// alert(arr[0])
+// alert(arr[1])
+// alert(arr[2])
+
+// let arr = [1, 2, 3];
+// alert(arr[0] + [2] + [3])
+
+// let arr = ['a', 'b', 'c', 'd'];
+// alert(arr[0] + [1] + [2] + [3]);
+
+
+// Длина массива в JavaScript
+
+// let a = [1, 2, 3];
+// alert(a.length);
+
+//  let a = [1, 2, 3];
+//  alert(a[2]);
+
+
+
+// Изменение элементов массива в JavaScript
+
+// let a = ['a', 'b', 'c'];
+// a[0] = '1';
+// a[1] = '2';
+// a[2] = '3';
+// alert(a);
+
+// let a = ['1', '2', '3'];
+// a[0] += '3';
+// a[1] += '3';
+// a[2] += '3';
+// alert(a);
+
+
+// Добавление элементов по ключам JavaScript
+
+
+// let a = [];
+// a[0] = '1';
+// a[1] = '2';
+// a[2] = '3';
+// alert(a);
+
+// let arr = [1, 2, 3];
+// arr[3] = 4;
+// arr[4] = 5;
+// alert(arr);
+
+
+// Разреженные массивы в JavaScript
+
+// let arr = [];
+// arr[3] = 'a';
+// arr[8] = 'b';
+// alert(arr.length);
+
+
+
+// Добавление элементов через push в JavaScript
+
+// let arr = [];
+// arr.push('1');
+// arr.push('2');
+// arr.push('3');
+// alert(arr);
+
+// let arr = [1, 2, 3];
+// arr.push(4);
+// arr.push(5);
+// alert(arr);
+
+
+
+// Ключи массивов из переменных в JavaScript
+
+// let arr = ['1', '2', '3'];
+// let key = 0; 
+// alert(arr[key]);
+
+
+// Оператор delete в массивах в JavaScript
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// delete arr[1];
+// delete arr[3];
+// delete arr[4];
+// alert(arr);
+
+
+// Поиск ошибок в коде с массивами JavaScript
+
+// let arr = [1, 2, 3, 4, 5];
+// alert(arr[arr.length -1]);
+
+// let arr = [1, 2, 3, 4, 5];
+// alert( arr[1] + arr[2] + arr[3] + arr[4] + arr[5]); 
+
+// let arr = [1, 2, 3, 4, 5];
+// alert(arr.length);
+
+// let arr = [1, 2, 3, 4, 5];
+// alert(arr.length);
