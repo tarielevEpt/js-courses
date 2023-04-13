@@ -707,3 +707,68 @@
 
 // let arr = [1, 2, 3, 4, 5];
 // alert(arr.length);
+
+
+
+// Объекты в JavaScript
+
+
+// let a = {1: 'пн', 2: 'вт', 3: 'ср', 4: 'чт', 5: 'пн', 6: 'сб', 7: 'вс', };
+// alert(a[1] + ' ' + a[2] + ' ' + a[3] + ' ' + a[4] + ' ' + a[5] + ' ' + a[6] + ' ' + a[7]);
+
+
+
+// Вывод всего объекта в JavaScript
+
+
+// let a = {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f', 7: 'g', 8: 's', 9: 't',};
+// console.log(a);
+
+
+// Строковые ключи объектов в JavaScript
+
+
+// let user = {1: 'name', 2: 'surname', 3: 'patronymic'};
+// alert(user[1] + ' ' + user[2] + ' ' + user[3]);
+
+
+// Свойства объектов в JavaScript
+
+// let date = {a: 'year', b: 'month', c: 'day'};
+// alert(date.a + '-' + date.b + '-' + date.c)
+
+
+
+// Ограничения на ключи объектов в JavaScript
+
+// let obj = {
+// 	'1a': 1,
+// 	b2 : 2,
+// 	'с-с': 3,
+// 	'd 4': 4,
+// 	e5 : 5
+// };
+
+
+// let obj = {
+// 	'1a': 1,
+// 	b2 : 2,
+// 	'с-с': 3,
+// 	d 4 : 4,
+// 	e5 : 5
+// };
+
+// console.log(obj[1a]);
+// console.log(obj.b2);
+// console.log(obj[c-c]);
+// console.log(obj.d 4);
+// console.log(obj.e5);
+
+
+// Изменение элементов объектов в JavaScript
+
+// let obj = {a: 1, b: 2, c: 3};
+// obj['a'] = '!';
+// obj.b = '!';
+// console.log(obj);
+
