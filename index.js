@@ -772,3 +772,64 @@
 // obj.b = '!';
 // console.log(obj);
 
+
+//Добавление элементов в объекты в JavaScript
+
+// let a = {};
+// a.a = 1;
+// a.b = 2;
+// a.c = 3;
+// console.log(a);
+
+
+// Неупорядоченность объектов в JavaScript
+
+
+// let obj = {3: 'c', 1: 'a', 2: 'b'};
+// console.log(obj[1]); 
+// console.log(obj[2]); 
+// console.log(obj[3]);
+
+
+
+// Массив ключей объекта в JavaScript
+
+// let obj = {x: 1, y: 2, z: 3};
+// let keys = Object.keys(obj);
+// console.log(keys);
+
+
+// Длина объекта в JavaScript
+
+
+// let obj = {x: 1, y: 2, z: 3};
+// let keys = Object.keys(obj);
+// console.log(Object.keys(obj).length);
+
+
+
+// Ключи объектов из переменных в JavaScript
+
+// let obj = {x: 1, y: 2, z: 3};
+// let key = 'z';
+// console.log(obj[key]); 
+
+
+
+// Ошибка обращения к элементу по ключу в JavaScript
+
+// let obj = {x: 1, y: 2, z: 3};
+// let x = 'x';
+// console.log(obj[x]);
+
+// let obj = {x: 1, y: 2, z: 3};
+// let key = 'x';
+// console.log(obj[key]);
+
+// let obj = {x: 1, y: 2, z: 3};
+// let prop = 'x';
+// console.log(obj[prop]);
+
+// let obj = {x: 1, y: 2, z: 3};
+// let prop = 'x';
+// console.log(obj[prop]);
