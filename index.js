@@ -833,3 +833,173 @@
 // let obj = {x: 1, y: 2, z: 3};
 // let prop = 'x';
 // console.log(obj[prop]);
+
+
+// Вычисляемые свойства в JavaScript
+
+
+// let key = 'x';
+// let obj = {
+// 	[key]: 1,
+// 	y: 2,
+// 	z: 3
+// };
+
+// let obj = {
+// 	[key1 + '1' ]: 1,
+// 	[y] : 2,
+// 	[z] : 3
+// };
+// let key1 = 'x';
+// let key2 = 'y';
+// let key3 = 'z';
+// alert(key1);
+// alert(key2);
+// alert(key3);
+
+
+// Оператор in в JavaScript
+
+
+// let obj = {x: 1, y: 2, z: 3};
+// console.log('x' in obj);
+// console.log('w' in obj);
+
+
+// Оператор delete в JavaScript
+
+// let obj = {x: 1, y: 2, z: 3};
+// delete obj.x;
+// console.log('x' in obj);
+
+
+
+// Типизация объектов в JavaScript
+
+// console.log(typeof {x: 1, y: 2, z: 3} ); 
+
+// console.log( typeof {} );
+
+// let obj = {x: 1, y: 2, z: 3};
+// console.log( typeof obj );
+
+// let obj = {x: 1, y: 2, z: 3};
+// console.log( typeof obj['x'] );
+
+
+
+// Массивы как объекты в JavaScript
+
+// console.log( typeof {x: 1, y: 
+// 	2, z: 3} ); 
+
+// console.log( typeof [1, 2, 3] );
+
+// let arr = [1, 2, 3];
+// console.log( typeof arr );
+
+// let arr = [1, 2, 3];
+// console.log( typeof arr[0] );
+
+// let arr = ['1', '2', '3'];
+// console.log( typeof arr[0] );
+
+
+// Отличаем массивы от объектов в JavaScript
+
+
+// console.log( Array.isArray([1, 2, 3]) );
+
+// console.log( Array.isArray({x: 1, y: 2, z: 
+// 	3}) ); 
+
+
+
+// Объекты и примитивы в JavaScript
+
+
+// let test = {x: 1, y: 2, z: 3};
+// console.log(test);
+
+// let test = {x: 1, y: 2, z: 3};
+// console.log(test.x);
+
+// let test = [1, 2, 3];
+// console.log(test);
+
+// let test = [1, 2, 3];
+// console.log(test[1]);
+
+// let test1 = [1, 2, 3];
+// let test2 = 1;
+
+// console.log(test1);
+
+// let test1 = [1, 2, 3];
+// let test2 = 1;
+
+// console.log(test1[test2]);
+
+
+
+// Передача объектов по ссылке в JavaScript
+
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// console.log(arr2);
+
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[1] = 'b';
+// console.log(arr1);
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[0] = 'b';
+// console.log(arr2);
+
+
+// Константы с массивами или объектами в JavaScript
+
+
+// const arr = ['a', 'b', 'c'];
+// arr[1] = '!';
+// console.log(arr);
+
+// const arr = ['a', 'b', 'c'];
+// arr.b = '1';
+// console.log(arr);
+
+
+// const arr = ['a', 'b', 'c'];
+// arr = ['a', 'b', 'c'];
+// console.log(arr)
+
+
+
+// Подход программирования через константы в JavaScript
+
+// const arr = [1, 2, 3, 4, 5];
+// const res = arr[1] + arr[4];
+// console.log(res);
+
+// Поиск ошибок в коде с объектами JavaScript
+
+// let obj = {x: 1, y: 2, z: 3};
+// console.log(obj);
+
+// let obj = {x: 1, y: 2, z: 3};
+// let key = 'x';
+// console.log(obj[key]);
+
+// let obj = {x: 1, y: 2, z: 3};
+// let sum = obj.x + obj.y + obj.x;
+// console.log(sum);
+
+// let obj = {1: '1', 2: '2', 3: '3'};
+// console.log(obj[obj.length]);
