@@ -1003,3 +1003,162 @@
 
 // let obj = {1: '1', 2: '2', 3: '3'};
 // console.log(obj[obj.length]);
+
+
+
+//Операторы больше и меньше в JavaScript
+
+// let test = 1;
+// if (test > 10) {
+// 	alert('не гавно '); // сработает 
+// 		это 
+// } else {
+// 	alert('гавно');
+// }
+
+// let test = 19;
+// if (test < 10) {
+// 	alert('не гавно '); // сработает 
+// 		это 
+// } else {
+// 	alert('гавно');
+// }
+
+// let test = 9;
+// if (test >= 10) {
+// 	alert('не гавно '); // сработает 
+// 		это 
+// } else {
+// 	alert('гавно');
+// }
+
+
+// let test = 9;
+// if (test <= 10) {
+// 	alert('не гавно '); // сработает 
+// 		это 
+// } else {
+// 	alert('гавно');
+// }
+
+
+// Проверка на равенство в JavaScript
+
+// let test = 9;
+// if (test == 10) {
+// 	alert('не гавно '); // сработает 
+// 		это 
+// } else {
+// 	alert('гавно');
+// }
+
+
+
+// Проверка на неравенство в JavaScript
+
+// let test = 9;
+// if (test != 10) {
+// 	alert('не гавно '); // сработает 
+// 		это 
+// } else {
+// 	alert('гавно');
+// }
+
+
+
+// Сравнение переменных в JavaScript
+
+
+// let test1 = 1;
+// let test2 = 2;
+
+// if (test2 > test1) {
+// 	alert('да'); 
+// }
+// else{
+// 	alert('нет');
+// }
+
+
+// let test1 = 1;
+// let test2 = 2;
+
+// if (test2 == test1) {
+// 	alert('да'); 
+// }
+// else{
+// 	alert('нет');
+// }
+
+
+
+// Равенство строк в JavaScript
+
+
+// let test = 'abc';
+// if (test == 'ссс') {
+// 	alert('да'); 
+// } else {
+// 	alert('нет');
+// }
+
+
+// Равенство строк и чисел в JavaScript
+
+
+// let test1 = '123';
+// let test2 = 123;
+// if(test1 == test2){
+//     alert('yes')
+// }
+// else{
+//     alert('no')
+// }
+
+// Равенство по значению и типу в JavaScript
+
+
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 == test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let test1 = '3';
+// let test2 = '3';
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+// let test1 = 3;
+// let test2 = '3';	
+// if (test1 == test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+
+// let test1 = 3;
+// let test2 = '3';		
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// let test1 = 3;
+// let test2 = 3;		
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
